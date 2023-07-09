@@ -1,0 +1,25 @@
+#hero-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+.roles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.role {
+    /* background-color: rgb(205, 49, 205); */
+    /* background-image: linear-gradient(to bottom right, rgb(148, 34, 148), rgb(205, 49, 205));
+    border: .25rem solid purple; */
+    background: linear-gradient(to bottom right, #5e3059, #522a4d) padding-box, linear-gradient(to bottom right, #aa429e, #a3198f) border-box;
+    border: 2px solid transparent;
+    text-decoration: none;
+    color: white;
+    padding: .5rem .75rem;
+    border-radius: .25rem;
+}
