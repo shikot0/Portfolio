@@ -15,15 +15,13 @@
     background-image: linear-gradient(to bottom right, var(--light-bg), var(--dark-bg))
 }
 
-.grid-item-wrapper:first-child {
-    grid-column: span 2;
-}
 
 .grid-item-image-wrapper {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    background-color: grey;
 }
 .grid-item-image-wrapper img {
     object-fit: cover;
@@ -44,6 +42,29 @@
     border-radius: .5rem 0 0;
     background-color: rgb(71, 71, 71);
     color: white;
+}
+
+.tools-wrapper {
+    position: absolute;
+    bottom: 2.5%;
+    left: 2.5%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.tool-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(75, 75, 75);
+}
+.tool-image-wrapper img {
+    width: 90%;
 }
 
 .github-link {

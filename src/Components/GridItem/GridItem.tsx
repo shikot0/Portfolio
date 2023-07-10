@@ -18,13 +18,19 @@ type GridItemProps = {
 export default function GridItem({details: {name, desktopImage, mobileImage, description, tools, link, github}}: GridItemProps) {
     return (
         <div className="grid-item-wrapper">
-            <Link href={link} className="grid-item">
+            <Link href={link} target='_blank' className="grid-item">
                 <div className="grid-item-image-wrapper">
                     <Image src={desktopImage} sizes='(max-width: 600px) 25rem, 30rem' fill alt={name}/>
                 </div>
                 <div className="tools-wrapper">
                     {tools.map(tool => {
-                        return <div key={v4()} className="tool"></div>
+                        return (
+                            <div key={v4()} className="tool-image-wrapper">
+                                {/* <Image src={`/tool_images/logo-${tool.toLowerCase()}.svg`} sizes='(max-width: 600px) 2.5rem, 5rem' fill alt={tool}/> */}
+                                {/* <img className={`${tool.toLowerCase() === 'express' ? 'fillWhite': ''}`} src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/> */}
+                                <img src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/>
+                            </div>
+                        ) 
                     })}
                 </div>
                 <div className="name">{name}</div>
