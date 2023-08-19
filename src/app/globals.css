@@ -11,6 +11,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Josefin Sans';
+  scroll-behavior: smooth;
   transition: .2s;
 }
 
@@ -23,7 +24,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  scroll-behavior: smooth;
 }
 main > section {
   width: 90%;
