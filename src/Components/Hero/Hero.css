@@ -19,6 +19,7 @@
     background: linear-gradient(to bottom right, #5e3059, #522a4d) padding-box, linear-gradient(to bottom right, #aa429e, #a3198f) border-box;
     border: 2px solid transparent;
     text-decoration: none;
+    text-align: center;
     color: white;
     padding: .5rem .75rem;
     border-radius: .25rem;
@@ -44,4 +45,12 @@
 .contact-link svg {
     fill: white;
     width: 1.25rem;
+}
+
+
+
+@media screen and (max-width: 300px) {
+    .contact-links-wrapper {
+        flex-direction: column;
+    }
 }

@@ -55,3 +55,9 @@
         grid-column: initial;
     }
 }
+
+@media screen and (max-width: 300px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
