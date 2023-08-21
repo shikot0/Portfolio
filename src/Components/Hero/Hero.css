@@ -1,5 +1,8 @@
 #hero-section {
     min-height: 100vh;
+    width: 100%;
+    /* background-image: linear-gradient(to bottom right, coral, white); */
+    background-image: linear-gradient(to bottom right, coral, white);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +19,7 @@
     /* background-color: rgb(205, 49, 205); */
     /* background-image: linear-gradient(to bottom right, rgb(148, 34, 148), rgb(205, 49, 205));
     border: .25rem solid purple; */
+    font-size: clamp(.7rem, 1vw, 1rem);
     background: linear-gradient(to bottom right, #5e3059, #522a4d) padding-box, linear-gradient(to bottom right, #aa429e, #a3198f) border-box;
     border: 2px solid transparent;
     text-decoration: none;

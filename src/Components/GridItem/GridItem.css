@@ -2,13 +2,25 @@
     position: relative;
     width: 100%;
     height: 100%;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.grid-item-wrapper:first-child {
+    grid-column: span 2;
+}
+.grid-item-wrapper:hover {
+    scale: 1.025; 
+    /* box-shadow: 0 0 1rem rgb(37, 37, 37); */
+    box-shadow: 0 0 1rem rgba(255, 127, 80, 0.5);
+    border: 1px solid silver;
+    border: .1rem solid coral;
 }
 .grid-item {
     display: block;
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: .5rem;
+    /* border-radius: .5rem; */
     overflow: hidden;
     color: black;
     text-decoration: none;
@@ -21,7 +33,7 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: grey;
+    background-color: var(--item-background);
 }
 .grid-item-image-wrapper img {
     object-fit: cover;
@@ -40,14 +52,14 @@
     font-size: .8rem;
     padding: .5rem;
     border-radius: .5rem 0 0;
-    background-color: rgb(71, 71, 71);
+    background-color: var(--item-background);
     color: white;
 }
 
 .tools-wrapper {
     position: absolute;
-    bottom: 2.5%;
-    left: 2.5%;
+    bottom: 2%;
+    left: 2%;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -59,9 +71,9 @@
     position: relative;
     border-radius: .5rem;
     padding: .5rem;
-    width: 2.5rem;
-    height: 2.5rem;
-    background-color: rgb(75, 75, 75);
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: var(--item-background);
 }
 .tool-image-wrapper img {
     width: 90%;
@@ -85,4 +97,16 @@
     fill: white;
     width: 75%;
     height: 75%;
+}
+
+
+@media screen and (max-width: 450px) {
+    .grid-item-wrapper .tools-wrapper {
+        top: 2%;
+        bottom: initial;
+    }
+    .tool-image-wrapper {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
 }

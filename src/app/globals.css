@@ -4,6 +4,7 @@
   --max-width: 80rem;
   --light-bg: rgb(20, 20, 20);
   --dark-bg: rgb(12, 12, 12);
+  --item-background: rgb(70, 70, 70);
 }
 
 *, *::before, *::after {
@@ -14,7 +15,21 @@
   scroll-behavior: smooth;
   transition: .2s;
 }
-
+*{
+  scrollbar-width: thin;
+  /* scrollbar-color: rgb(56, 56, 56) black; */
+  scrollbar-color: coral rgb(255, 179, 152);
+}
+*::-webkit-scrollbar {
+  width: .25rem;
+  overflow: hidden;
+}
+*::-webkit-scrollbar-track {
+  background-color: rgb(255, 179, 152);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: coral;
+}
 
 body {
   min-height: 100vh;
@@ -24,22 +39,29 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
 }
-main > section {
+main > section:not(#hero-section) {
   width: 90%;
   max-width: var(--max-width);
   padding: 0 0 2rem;
 }
 
 
-h1, h2, h3, h4, h5, h6 {
-  color: white;
+h2, h3, h4, h5, h6 {
+  color: rgb(210, 210, 210);
+  background-image: linear-gradient(to bottom right, coral, rgb(210, 210, 210)); 
+  background-size: 100%;
+  background-clip: text;
+  color: transparent;
   text-align: center;
 }
 
 h1 {
   /* font-family: 'Scriptina'; */
-  font-family: 'Parisienne';
-  font-size: clamp(2rem, 5vw, 7.5rem);
+  /* font-family: 'Parisienne'; */
+  font-family: 'Poppins';
+  font-size: clamp(1rem, 7.5vw, 7.5rem);
+  text-align: center;
+  color: rgb(255, 118, 68);
 }
