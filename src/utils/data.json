@@ -1,5 +1,14 @@
 [
     {
+        "name": "Full-stack comment section",
+        "desktopImage": "/Website_Images/comment-section.png",
+        "mobileImage": "",
+        "description": "A Full-stack comment section built using Nextjs and MongoDB",
+        "github": "https://github.com/shikot0/comment-section",
+        "tools": ["Nextjs", "MongoDB"],
+        "link": "https://comment-section-blue.vercel.app/"
+    },
+    {
         "name": "Issue",
         "desktopImage": "/Website_Images/issue_desktop.png",
         "mobileImage": "",
