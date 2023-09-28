@@ -33,7 +33,7 @@
         "description": "My submission for the getLinked.ai 2023 hackathon",
         "github": "https://github.com/shikot0/getLinked-hackathon",
         "tools": ["Nextjs","MongoDB"],
-        "link": "https://get-linked-hackathon.vercel.app/"
+        "link": "https://get-linked-hackathon-bice.vercel.app"
     },
     {
         "name": "Rock Paper Scissors Game",
