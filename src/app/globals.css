@@ -4,8 +4,10 @@
 
 :root {
   --max-width: 80rem;
-  --light-bg: rgb(20, 20, 20);
-  --dark-bg: rgb(12, 12, 12);
+  /* --dark-bg: rgb(20, 20, 20); */
+  /* --dark-bg: rgb(33, 26, 24); */
+  --dark-bg: rgb(24, 12, 7);
+  --light-bg: rgb(19, 19, 27);
   --item-background: rgb(70, 70, 70);
 }
 
@@ -17,7 +19,7 @@
   scroll-behavior: smooth;
   transition: .2s;
 }
-*{
+* {
   scrollbar-width: thin;
   /* scrollbar-color: rgb(56, 56, 56) black; */
   scrollbar-color: coral rgb(255, 179, 152);
@@ -35,13 +37,15 @@
 
 body {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom right, var(--light-bg), var(--dark-bg));
+  /* background-image: linear-gradient(to bottom right, var(--light-bg), var(--dark-bg)); */
+  /* background-image: linear-gradient(to bottom right, var(--dark-bg), var(--light-bg)); */
+  background-image: linear-gradient(to bottom, var(--dark-bg), var(--light-bg));
 }
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 main > section:not(#hero-section) {
   width: 90%;
@@ -67,4 +71,16 @@ h1 {
   font-weight: 700;
   text-align: center;
   color: rgb(255, 118, 68);
+}
+
+@keyframes bob {
+  0% {
+    translate: 0% 25%;
+  }
+  50% {
+    translate: 0% 50%;
+  }
+  100% {
+    translate: 0% 25%;
+  }
 }

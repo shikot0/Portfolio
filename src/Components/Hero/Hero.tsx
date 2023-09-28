@@ -6,7 +6,7 @@ export default function Hero() {
         <section id="hero-section">
             <h1>Sheikh Tijan Ceesay</h1>
             <div className="roles-wrapper">
-                <a href={'#projects'} className="role">Full-Stack Web Developer</a>
+                <a href={'#projects-section'} className="role">Full-Stack Web Developer</a>
             </div>
             <div className="contact-links-wrapper">
                 {/* <Link className="contact-link" href='mailto:1sh1m1da1@gmail.com'>
@@ -22,6 +22,10 @@ export default function Hero() {
                     GitHub
                 </Link>
             </div> 
+            <a href="#projects-section" className="projects-section-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="arrow-downward"><rect width="24" height="24" opacity="0"/><path d="M18.77 13.36a1 1 0 0 0-1.41-.13L13 16.86V5a1 1 0 0 0-2 0v11.86l-4.36-3.63a1 1 0 1 0-1.28 1.54l6 5 .15.09.13.07a1 1 0 0 0 .72 0l.13-.07.15-.09 6-5a1 1 0 0 0 .13-1.41z"/></g></g></svg>
+                Projects
+            </a>
         </section>
     )
 }   

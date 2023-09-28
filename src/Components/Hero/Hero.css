@@ -7,6 +7,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    box-shadow: 0 0 5rem rgba(255, 127, 80, 0.4);
     gap: 2.5rem;
 }
 .roles-wrapper {
@@ -49,6 +51,29 @@
 .contact-link svg {
     fill: white;
     width: 1.25rem;
+}
+
+.projects-section-btn {
+    position: absolute;
+    right: 1rem;
+    bottom: 2.5rem;
+    translate: 0% 50%;
+    border: none;
+    background-color: black;
+    border-radius: 10rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: .5rem .75rem;
+    gap: .75rem;
+    font-size: .85rem;
+    cursor: pointer;
+    text-decoration: none;
+    animation: bob 5s linear infinite forwards;
+}
+.projects-section-btn svg {
+    width: 1.25rem;
+    fill: white;
 }
 
 

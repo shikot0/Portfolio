@@ -1,6 +1,6 @@
 [
     {
-        "name": "Full-stack comment section",
+        "name": "Full-stack Comment Section",
         "desktopImage": "/Website_Images/comment-section.png",
         "mobileImage": "",
         "description": "A Full-stack comment section built using Nextjs and MongoDB",
@@ -27,13 +27,13 @@
         "link": "https://reca.vercel.app"
     },
     {
-        "name": "Ecommerce page",
-        "desktopImage": "/Website_Images/ecommerce-page_desktop.png",
-        "mobileImage": "/Website_Images/ecommerce-page_mobile.png",
-        "description": "A standard single page Ecommerce site with cart, and image lightbox functionality.",
-        "github": "https://github.com/shikot0/ecommerce-product-page-main",
-        "tools": ["HTML", "CSS", "JavaScript"],
-        "link": "https://shikot0.github.io/ecommerce-product-page-main/"
+        "name": "getLinked.ai Hackathon Project",
+        "desktopImage": "/Website_Images/getlinked-hackathon.png",
+        "mobileImage": "",
+        "description": "My submission for the getLinked.ai 2023 hackathon",
+        "github": "https://github.com/shikot0/getLinked-hackathon",
+        "tools": ["Nextjs","MongoDB"],
+        "link": "https://get-linked-hackathon.vercel.app/"
     },
     {
         "name": "Rock Paper Scissors Game",
@@ -61,6 +61,15 @@
         "github": "https://github.com/shikot0/todo-list-with-react",
         "tools": ["React"],
         "link": "https://shikot0.github.io/todo-list-with-react/"
+    },
+    {
+        "name": "Ecommerce page",
+        "desktopImage": "/Website_Images/ecommerce-page_desktop.png",
+        "mobileImage": "/Website_Images/ecommerce-page_mobile.png",
+        "description": "A standard single page Ecommerce site with cart, and image lightbox functionality.",
+        "github": "https://github.com/shikot0/ecommerce-product-page-main",
+        "tools": ["HTML", "CSS", "JavaScript"],
+        "link": "https://shikot0.github.io/ecommerce-product-page-main/"
     },
     {
         "name": "Job Listings",
