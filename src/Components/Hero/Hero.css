@@ -32,6 +32,9 @@
 }
 
 .contact-links-wrapper {
+    width: 100%;
+    padding: 0 1rem;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,8 +81,8 @@
 
 
 
-@media screen and (max-width: 300px) {
+/* @media screen and (max-width: 450px) {
     .contact-links-wrapper {
         flex-direction: column;
     }
-}
+} */
