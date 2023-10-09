@@ -1,5 +1,6 @@
-#projects {
+#projects-section {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 1rem;
+    padding: .75rem 0;
 }

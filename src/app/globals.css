@@ -50,7 +50,8 @@ main {
 main > section:not(#hero-section) {
   width: 90%;
   max-width: var(--max-width);
-  padding: 0 0 2rem;
+  /* padding: 0 0 2rem; */
+  padding: 1rem 0;
 }
 
 
