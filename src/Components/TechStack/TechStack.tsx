@@ -52,6 +52,16 @@ export default function TechStack() {
                         <Image src={'/tool_images/logo-mongodb.svg'} fill alt="mongodb"/>
                     </div>
                 </div>
+                <div className="tech">
+                    <div className="tech-image-wrapper">
+                        <Image src={'/tool_images/logo-python.svg'} fill alt="python"/>
+                    </div>
+                </div>
+                <div className="tech">
+                    <div className="tech-image-wrapper">
+                        <Image src={'/tool_images/logo-jupyter.svg'} fill alt="jupyter"/>
+                    </div>
+                </div>
             </div>
         </section>
     )
