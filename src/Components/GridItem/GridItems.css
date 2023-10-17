@@ -38,8 +38,16 @@
     display: flex;
     width: 100%;
 }
+.grid-item.ml-grid-item:hover .description-wrapper {
+    width: 0%;
+    overflow: hidden;
+    padding: 0;
+}
+.grid-item.ml-grid-item:hover .grid-item-image-wrapper {
+    width: 100%;
+}
 .grid-item.ml-grid-item .grid-item-image-wrapper {
-    width: 70%;
+    width: 65%;
 }
 .grid-item.ml-grid-item .description-wrapper {
     display: flex;
@@ -47,13 +55,16 @@
     justify-content: space-between;
     gap: 1rem;
     padding: .5rem;
-    width: 30%;
+    width: 35%;
     height: 100%;
     background-color: var(--item-background);
     overflow-y: auto;
     color: white;
 }
-.ml-grid-item .ml-grid-item-description {
+.ml-grid-item .ml-project-name {
+    font-size: 1rem;
+}
+.ml-grid-item .ml-project-description {
     font-size: .9rem;
 }
 
@@ -155,6 +166,15 @@
     }
     .ml-grid-item .ml-grid-item-description {
         font-size: .9rem;
+    }
+    .grid-item.ml-grid-item:hover .description-wrapper {
+        width: 100%;
+        overflow: initial;
+        overflow-y: auto;
+        padding: .5rem;
+    }
+    .grid-item.ml-grid-item:hover .grid-item-image-wrapper {
+        width: 100%;
     }
     .grid-item-wrapper .tools-wrapper {
         top: 2%;

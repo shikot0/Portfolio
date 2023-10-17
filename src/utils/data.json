@@ -1,6 +1,14 @@
 [
     {
         "type": "ml",
+        "name": "Diabetes Prediction using SVM",
+        "description": "I implemented a diabetes prediction model using a Support Vector Model that analyses the Pregnancies, Glucose, Blood pressure, Skin thickness, Insulin, BMI, Diabetes Pedigree Function and Age of a patient to determine whether they have diabetes.",
+        "image": "/Project_Images/diabetes-ai-prediction-project.png",
+        "tools": ["Python", "Jupyter"],
+        "github": "https://github.com/shikot0/diabetes-prediction-ai"
+    },
+    {
+        "type": "ml",
         "name": "Sonar AI Project",
         "description": "Implemented a Logistic Regression Model that can identify whether a hypothetical object is a mine or a rock.",
         "image": "/Project_Images/sonar-ai-project.png",
