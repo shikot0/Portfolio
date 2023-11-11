@@ -11,12 +11,13 @@
     justify-items: center;
     gap: 1.6rem;
     /* height: 62.5rem; */
-    padding: 1rem;
+    padding: 1rem; 
     overflow: hidden;
     transition: none;
 }
 .grid.ml-grid {
     grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    grid-auto-rows: 16rem;
 }
 
 .grid.full {

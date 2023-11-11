@@ -38,14 +38,14 @@
     display: flex;
     width: 100%;
 }
-.grid-item.ml-grid-item:hover .description-wrapper {
+/* .grid-item.ml-grid-item:has(.grid-item-image-wrapper:hover) .description-wrapper {
     width: 0%;
     overflow: hidden;
     padding: 0;
 }
-.grid-item.ml-grid-item:hover .grid-item-image-wrapper {
+.grid-item.ml-grid-item:has(.grid-item-image-wrapper:hover) .grid-item-image-wrapper {
     width: 100%;
-}
+} */
 .grid-item.ml-grid-item .grid-item-image-wrapper {
     width: 65%;
 }

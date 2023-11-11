@@ -10,7 +10,7 @@
     {
         "type": "ml",
         "name": "Sonar AI Project",
-        "description": "Implemented a Logistic Regression Model that can identify whether a hypothetical object is a mine or a rock.",
+        "description": "Trained a Logistic Regression Model that identifies whether a hypothetical object is a mine or a rock based on sonar readings.",
         "image": "/Project_Images/sonar-ai-project.png",
         "tools": ["Python", "Jupyter"],
         "github": "https://github.com/shikot0/sonar-ai-project"
