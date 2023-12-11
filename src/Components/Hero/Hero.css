@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 1rem 0;
     box-shadow: 0 0 5rem rgba(255, 127, 80, 0.4);
     gap: 2.5rem;
 }
@@ -67,15 +68,15 @@
     display: flex;
     align-items: center;
     color: white;
-    padding: .5rem .75rem;
-    gap: .75rem;
-    font-size: .85rem;
+    padding: clamp(.4rem, 1vw, .5rem) clamp(.5rem, 2vw, .75rem);
+    gap: clamp(.5rem, 1vw, .75rem);
+    font-size: clamp(.65rem, 2vw, .75rem);
     cursor: pointer;
     text-decoration: none;
     animation: bob 5s linear infinite forwards;
 }
 .projects-section-btn svg {
-    width: 1.25rem;
+    width: clamp(1rem, 2vw, 1.25rem);
     fill: white;
 }
 
