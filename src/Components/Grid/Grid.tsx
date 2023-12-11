@@ -43,7 +43,7 @@ export function WebGrid({data}: WebGridProps) {
             <h2>Web Projects</h2>
             <div className="grid">
                 {/* {data.map(details => { */}
-                {data.slice(0,11).map(details => {
+                {data.slice(0,14).map(details => {
                     return <WebDevGridItem key={v4()} details={details} />
                 })}
 

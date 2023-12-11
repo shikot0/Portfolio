@@ -59,9 +59,10 @@
     height: 100%;
     background-color: var(--item-background);
     overflow-y: auto;
-    color: white;
+    color: rgba(255, 255, 255, 0.8);
 }
 .ml-grid-item .ml-project-name {
+    color: white;
     font-size: 1rem;
 }
 .ml-grid-item .ml-project-description {
@@ -119,6 +120,7 @@
     /* background-color: white; */
     /* background-image: linear-gradient(to bottom right, coral, white); */
     /* background-color: coral; */
+
     background-color: var(--item-background);
     border: .1rem solid rgb(170, 170, 170);
 }
