@@ -6,12 +6,13 @@ import './globals.css'
 export const metadata: Metadata = {
   title: "Sheikh Tijan Ceesay",
   description: "View Sheikh Tijan Ceesay's portfolio",
-  keywords: ['sheikh tijan ceesay', 'sheikh', 'tijan', 'ceesay'],
+  keywords: ['sheikh tijan ceesay', 'sheikh', 'tijan', 'ceesay', 'portfolio' , 'developer', 'web', 'full-stack'],
   authors: {url: 'https://github.com/shikot0', name: 'Sheikh Tijan Ceesay'},
+  creator: 'sheikh',
   icons: [{ rel: "icon", url: "/icon.png" }],
   openGraph: {
     type: 'website',
-    url: 'sheikh-tijan-ceesay.vercel.app',
+    url: 'https://sheikh-tijan-ceesay.vercel.app',
     title: "Sheikh Tijan Ceesay's portfolio",
     siteName: 'Sheikh Tijan Ceesay',
     description: "View Sheikh Tijan Ceesay's portfolio",

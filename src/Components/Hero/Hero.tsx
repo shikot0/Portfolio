@@ -6,7 +6,8 @@ export default function Hero() {
         <section id="hero-section">
             <h1>Sheikh Tijan Ceesay</h1>
             <div className="roles-wrapper">
-                <a href={'#projects-section'} className="role">Full-Stack Web Developer</a>
+                {/* <a href={'#projects-section'} className="role">Full-Stack Web Developer</a> */}
+                <a href={'#about-me-section'} className="role">Full-Stack Web Developer</a>
             </div>
             <div className="contact-links-wrapper">
                 {/* <Link className="contact-link" href='mailto:1sh1m1da1@gmail.com'>
