@@ -49,6 +49,9 @@
 .grid-item.ml-grid-item .grid-item-image-wrapper {
     width: 65%;
 }
+.grid-item.ml-grid-item .grid-item-image-wrapper img {
+    object-position: 0;
+}
 .grid-item.ml-grid-item .description-wrapper {
     display: flex;
     flex-direction: column;

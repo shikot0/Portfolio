@@ -1,6 +1,14 @@
 [
     {
         "type": "ml",
+        "name": "Number Classification with Logistic Regression",
+        "description": "Created a Logistic Regression model that can classify digits from 0-9 with an accuracy score of .95",
+        "image": "/Project_Images/number-classification-with-logistic-regression.png",
+        "tools": ["Python", "Jupyter"],
+        "github": "https://github.com/shikot0/number-classification-using-logisitic-regression"
+    },
+    {
+        "type": "ml",
         "name": "Diabetes Prediction using SVM",
         "description": "I implemented a diabetes prediction model using a Support Vector Model that analyses the Pregnancies, Glucose, Blood pressure, Skin thickness, Insulin, BMI, Diabetes Pedigree Function and Age of a patient to determine whether they have diabetes.",
         "image": "/Project_Images/diabetes-ai-prediction-project.png",
