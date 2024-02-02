@@ -16,7 +16,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 1rem;
 }
 .role {
     /* background-color: rgb(205, 49, 205); */
@@ -35,10 +37,10 @@
 .contact-links-wrapper {
     width: 100%;
     padding: 0 1rem;
-    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2rem;
 }
 .contact-link {
