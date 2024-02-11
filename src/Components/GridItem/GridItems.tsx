@@ -31,11 +31,12 @@ export function WebDevGridItem({details: {name, desktopImage, mobileImage, descr
                 <div className="tools-wrapper">
                     {tools.map(tool => {
                         return (
-                            <div key={v4()} className="tool-image-wrapper">
-                                {/* <Image src={`/tool_images/logo-${tool.toLowerCase()}.svg`} sizes='(max-width: 600px) 2.5rem, 5rem' fill alt={tool}/> */}
-                                {/* <img className={`${tool.toLowerCase() === 'express' ? 'fillWhite': ''}`} src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/> */}
-                                <img src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/>
-                            </div>
+                            // <div key={v4()} className="tool-image-wrapper">
+                            //     {/* <Image src={`/tool_images/logo-${tool.toLowerCase()}.svg`} sizes='(max-width: 600px) 2.5rem, 5rem' fill alt={tool}/> */}
+                            //     {/* <img className={`${tool.toLowerCase() === 'express' ? 'fillWhite': ''}`} src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/> */}
+                            //     <img src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/>
+                            // </div>
+                            <small key={v4()} className="tool-text">{tool}</small>
                         ) 
                     })}
                 </div>
@@ -58,11 +59,12 @@ export function MLGridItem({details: {name, image, description, tools, github}}:
                 <div className="tools-wrapper">
                     {tools.map(tool => {
                         return (
-                            <div key={v4()} className="tool-image-wrapper">
-                                {/* <Image src={`/tool_images/logo-${tool.toLowerCase()}.svg`} sizes='(max-width: 600px) 2.5rem, 5rem' fill alt={tool}/> */}
-                                {/* <img className={`${tool.toLowerCase() === 'express' ? 'fillWhite': ''}`} src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/> */}
-                                <img src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/>
-                            </div>
+                            // <div key={v4()} className="tool-image-wrapper">
+                            //     {/* <Image src={`/tool_images/logo-${tool.toLowerCase()}.svg`} sizes='(max-width: 600px) 2.5rem, 5rem' fill alt={tool}/> */}
+                            //     {/* <img className={`${tool.toLowerCase() === 'express' ? 'fillWhite': ''}`} src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/> */}
+                            //     <img src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/>
+                            // </div>
+                            <small key={v4()} className="tool-text">{tool}</small>
                         ) 
                     })}
                 </div>
