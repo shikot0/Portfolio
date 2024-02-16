@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="roles-wrapper">
                 {/* <a href={'#projects-section'} className="role">Full-Stack Web Developer</a> */}
                 <a href={'#about-me-section'} className="role">Full-Stack Web Developer</a>
-                <a href={'#projects-section'} className="role">Machine Learning Engineer</a>
+                {/* <a href={'#projects-section'} className="role">Machine Learning Engineer</a> */}
             </div>
             <div className="contact-links-wrapper">
                 {/* <Link className="contact-link" href='mailto:1sh1m1da1@gmail.com'>
