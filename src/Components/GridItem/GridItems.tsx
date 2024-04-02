@@ -36,7 +36,12 @@ export function WebDevGridItem({details: {name, desktopImage, mobileImage, descr
                             //     {/* <img className={`${tool.toLowerCase() === 'express' ? 'fillWhite': ''}`} src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/> */}
                             //     <img src={`/tool_images/logo-${tool.toLowerCase()}.svg`} alt={tool}/>
                             // </div>
+
                             <small key={v4()} className="tool-text">{tool}</small>
+
+                            // <div key={v4()} className="tool-image-wrapper">
+                            //     <Image src={`/tool_images/logo-${tool.toLowerCase()}.svg`} fill alt={tool}/>
+                            // </div>
                         ) 
                     })}
                 </div>

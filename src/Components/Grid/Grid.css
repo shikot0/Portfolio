@@ -12,7 +12,7 @@
     gap: 1.6rem;
     /* height: 62.5rem; */
     padding: 1rem; 
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: none;
 }
 .grid.ml-grid {
