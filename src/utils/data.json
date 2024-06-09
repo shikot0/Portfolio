@@ -24,6 +24,16 @@
         "github": "https://github.com/shikot0/ai-sonar-project"
     },
     {
+        "type": "mobile",
+        "name": "Mobile Pomodoro App",
+        "image": "/Project_Images/pomodoro-app.jpg",
+        "mobileImage": "",
+        "description": "A Pomodoro app with custom timer components built using React Native, react-native-reanimated and react-native-svg",
+        "github": "https://github.com/shikot0/pomodoro-app",
+        "tools": ["React"],
+        "link": "https://expo.dev/preview/update?message=updated%20packages&updateRuntimeVersion=1.0.0&createdAt=2024-06-09T02%3A47%3A17.184Z&slug=exp&projectId=3db6c9e1-5f17-40db-9e60-d146a1364c17&group=d41e718f-d368-499a-87ca-ed4e11ba4e42"
+    },
+    {
         "type": "web",
         "name": "Full-stack Comment Section",
         "desktopImage": "/Project_Images/comment-section.png",
